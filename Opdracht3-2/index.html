@@ -1,27 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>opdracht3-2</title>
 </head>
+
 <body>
-   <form>
-    <label for="fname">Voornaam:</label> <br>
-    <input type="text" id="fname" name="fname"> <br>
-    <label for="lname">Achternaam</label> <br>
-    <input type="text" id="lname" name="lname">`<br>
-   </form>
-<p>Aanhef</p>
-   <form>
-    <input type="radio" id="dhr." name="fav_language" value="Dhr." checked>
-    <label for="dhr.">Dhr.</label><br>
-        <input type="radio" id="mevr." name="fav_language" value="Mevr.">
-    <label for="mevr.">Mevr.</label><br>
-   </form>
+    <h3>Je abonoment binnen 5 minuten geregeld!</h3>
     <form>
-    <label for="sname">Straatnaam met huisnummer:</label> <br>
-    <input type="text" id="sname" name="sname"> <br>
-   </form>
+        <label for="fname">Voornaam:</label> <br>
+        <input type="text" id="fname" name="fname"> <br>
+        <label for="lname">Achternaam</label> <br>
+        <input type="text" id="lname" name="lname">`<br>
+
+        <p>Aanhef</p>
+
+        <input type="radio" id="dhr." name="fav_language" value="Dhr." checked>
+        <label for="dhr.">Dhr.</label><br>
+
+        <input type="radio" id="mevr." name="fav_language" value="Mevr.">
+        <label for="mevr.">Mevr.</label><br>
+
+        <label for="sname">Straatnaam met huisnummer:</label> <br>
+        <input type="text" id="sname" name="sname"> <br>
+
+        <label for="pcode">Postcode:</label> <br>
+        <input type="text" id="pcode" name="pcode"> <br>
+
+        <label for="wplaats">Woonplaats:</label> <br>
+        <input type="text" id="wplaats" name="wplaats"> <br>
+
+        <label for="IBAN">IBAN nummer:</label> <br>
+        <input type="text" id="IBAN" name="IBAN" maxlength="18" placeholder="NL91ABNA0417164300"> <br>
+
+        <label for="Optie">Type Abonoment</label>
+        <select name="Optie" id="Optie">
+            <option value="">Mobiel</option>
+            <option value="">Glasvezel</option>
+            <option value="">TV</option>
+        </select> <br>
+        <label for="Date">Ingang Abonoment:</label>
+        <input type="date" id="Date" name="Date" min="2026-11-20"> <br>
+
+        <label for="Ltijd">Looptijd abonoment:</label>
+        <select name="Ltijd" id="Ltijd">
+            <option value="">12 maanden</option>
+            <option value="">24 maanden</option>
+        </select> <br>
+
+        <label for="Agebruikers">Aantal gebruikers</label>
+        <input type="number" id="Agebruikers" name="Agebruikers" max="4" min="1"> <br>
+
+        <label for="Email">E-Mail:</label>
+        <input type="email" id="Email" name="Email"> <br>
+
+        <label for="pword">Password:</label>
+        <input type="password" id="pword" name="pword"> <br>
+
+        <button type="submit">Sluit abonoment af</button>
+    </form>
 </body>
-</html> 
+
+</html>

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: maroon;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: purple;
+    color: black;
+}
+.div1{
+    display: flex; 
+    flex-direction: row;
+    gap: 40px;
+}
+
+.Hero{
+    background-color: black;
+    padding-top: 1px;
+    color: white;
+    padding-left: 30px;
+}
+

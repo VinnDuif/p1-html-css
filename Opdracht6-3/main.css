@@ -1,35 +1,19 @@
-header{
-    background-color: lightgray;
-}
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-nav{
+.container{
     display: flex;
     align-items: center;
-    padding: 0 20px;
-
-
+    justify-content: space-between;
+    gap: 30px;
+    background-color: red;
 }
 .div1{
-    display: flex;
+    display: flex; 
     flex-direction: row;
-        flex: 2;
-        gap: 30px;
-        justify-content: center;
-
-}
-
-.side{
-        flex: 1;
-}
-
-.side:first-child{
-    text-align: left;
-}
-
-.side:last-child{
-    text-align: right;
+    gap: 20px;
 }

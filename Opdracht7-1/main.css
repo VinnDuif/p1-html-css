@@ -1,0 +1,22 @@
+@media (max-width: 600px){
+    header{
+        background-color: green;
+    }
+}
+
+
+
+main{
+    background-color: blueviolet;
+    padding: 0px;
+
+}
+
+footer{
+    background-color: purple;
+
+}
+
+body{
+    margin: 0px;
+}
