@@ -4,13 +4,46 @@ body{
     box-sizing: border-box;
     background-color: maroon;
 }
+
+nav{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+padding: 0;
+}
+
+.backgroundblack{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+nav a {
+    color: white;
+}
+
+.blackcolor{
+    background-color: black;
+    color: white;
+}
+
+.purplecolor{
+    background-color: purple;
+    border-color: purple;
+}
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     background-color: purple;
-    color: black;
+
 }
 .div1{
     display: flex; 
@@ -21,7 +54,23 @@ body{
 .Hero{
     background-color: black;
     padding-top: 1px;
-    color: white;
+
     padding-left: 30px;
 }
 
+.backgroundwhite{
+    background-color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+.backgroundpurple{
+    background-color: purple;
+    padding: 0;
+}
+
+.backgroundpurple a{
+    color: white;
+}
